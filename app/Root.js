@@ -14,13 +14,13 @@ import './assets/styles/global.css'
 render((
   <Provider store={store}>
     <MuiThemeProvider>
-        <Router history={browserHistory}>
-          <Redirect from='/' to='/companies' />
-          <Route path='/' component={Layout}>
-            <Router path='companies' component={Companies} />
-            <Router path='companies/new' component={NewCompany} />
-          </Route>
-        </Router>
-      </MuiThemeProvider>
+      <Router history={browserHistory}>
+        <Redirect from='/' to='/companies' />
+        <Route path='/' component={Layout}>
+          <Router path='companies' component={Companies} />
+          <Router path='companies/new' component={NewCompany} />
+        </Route>
+      </Router>
+    </MuiThemeProvider>
   </Provider>
 ), document.getElementById('root'))

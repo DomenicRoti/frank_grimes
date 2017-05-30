@@ -1,8 +1,8 @@
 //@flow
-import React, { PropTypes as pt } from 'react'
-import { Container, Header } from './NewCompanyStyle'
 import { RaisedButton, TextField } from 'material-ui'
+import React, { PropTypes as pt } from 'react'
 import injectTapEventPlugin from 'react-tap-event-plugin'
+import { Container, Header } from './NewCompanyStyle'
 
 injectTapEventPlugin()
 

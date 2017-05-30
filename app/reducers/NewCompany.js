@@ -1,6 +1,7 @@
 // @flow
-import type Action from '~/app/Types'
 import update from 'immutability-helper'
+import type Action from '~/app/Types'
+
 export const SAGA_NEW_COMPANY = 'company/SAGA_NEW_COMPANY'
 
 export default function reducer(state: Object = {}, action: Action) {

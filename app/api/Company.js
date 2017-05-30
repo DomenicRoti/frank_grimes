@@ -6,6 +6,6 @@ export function getCompanies() {
   return apiGet(routes.companies.index)
 }
 
-export function postCompany(company) {
+export function postCompany(company: Object) {
   return apiPost(routes.companies.index, company)
 }
